@@ -1,0 +1,224 @@
+{
+  "meta": {
+    "title": "WoodRoute — Production management for your workshop",
+    "description": "Manage orders, inventory, and timelines in one place. WoodRoute's feasibility assistant helps you decide before accepting every order."
+  },
+  "a11y": {
+    "skip_to_content": "Skip to main content"
+  },
+  "lang_switcher": {
+    "label": "Select language",
+    "es": "Spanish",
+    "en": "English"
+  },
+  "nav": {
+    "logo_alt": "WoodRoute logo",
+    "open_menu": "Open navigation menu",
+    "close_menu": "Close navigation menu",
+    "items": {
+      "features": "Features",
+      "how_it_works": "How it works",
+      "pricing": "Pricing"
+    },
+    "cta": "Get started free"
+  },
+  "hero": {
+    "tag": "SaaS for woodworkers",
+    "title": "Make better decisions in your workshop. From the very first order.",
+    "subtitle": "Manage orders, inventory, and timelines in one place. WoodRoute validates whether an order is feasible before you accept it.",
+    "cta_primary": "Get started free",
+    "cta_secondary": "See plans",
+    "dashboard_alt": "WoodRoute dashboard view"
+  },
+  "problem": {
+    "tag": "The problem",
+    "title": "Workshop chaos has a real cost",
+    "subtitle": "Every woodworker knows the story: miscalculated materials, clients calling to ask, deadlines missed.",
+    "items": [
+      {
+        "title": "Notebooks and WhatsApp",
+        "description": "You track orders in paper notes or lost messages. Finding information costs you minutes every time."
+      },
+      {
+        "title": "Miscalculated materials",
+        "description": "You accept an order and halfway through realize you don't have enough material. The order delays, the client gets frustrated."
+      },
+      {
+        "title": "Clients in the dark",
+        "description": "You receive the same message over and over: 'When will it be ready?' Every answer interrupts your work."
+      },
+      {
+        "title": "No visibility into your shop",
+        "description": "You don't know clearly what orders are in progress, what's in stock, or how much capacity you have available."
+      }
+    ]
+  },
+  "how_it_works": {
+    "tag": "How it works",
+    "title": "From request to delivery, no surprises",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Register the order",
+        "description": "Enter the furniture details: materials, dimensions, and estimated date."
+      },
+      {
+        "number": "02",
+        "title": "Validate feasibility",
+        "description": "WoodRoute checks your stock, available capacity, and timelines. It tells you whether you can accept the order."
+      },
+      {
+        "number": "03",
+        "title": "Produce with control",
+        "description": "Manage the order's progress, deduct materials from inventory, and get alerts when stock runs low."
+      },
+      {
+        "number": "04",
+        "title": "Your client sees the progress",
+        "description": "Share a tracking link. Your client follows the status in real time without needing to call you."
+      }
+    ]
+  },
+  "features": {
+    "tag": "Features",
+    "title": "Everything your workshop needs",
+    "items": [
+      {
+        "title": "Feasibility assistant",
+        "description": "Before accepting an order, validates whether you have the required materials, time, and capacity."
+      },
+      {
+        "title": "Order management",
+        "description": "All your orders in one place. Status, materials, deadlines, and client info always visible."
+      },
+      {
+        "title": "Inventory control",
+        "description": "Track your materials and get alerts when stock reaches the defined minimum."
+      },
+      {
+        "title": "Time estimation",
+        "description": "Automatically calculates the order duration based on complexity and your current workload."
+      },
+      {
+        "title": "Client tracking",
+        "description": "A public link where clients see the status of their furniture. No unnecessary calls."
+      },
+      {
+        "title": "Stock alerts",
+        "description": "Receive notifications before running out of key materials, not after it happens."
+      }
+    ]
+  },
+  "client_tracking": {
+    "tag": "For your clients",
+    "title": "Your client knows exactly where their furniture is",
+    "subtitle": "Share a tracking link and that's it. No extra apps, no sign-up. Your client sees the status in real time.",
+    "benefits": [
+      "No more 'when will it be ready?' calls",
+      "Trust and transparency with your client",
+      "Available on any device"
+    ],
+    "tracking_alt": "Client tracking link view"
+  },
+  "comparison": {
+    "tag": "Comparison",
+    "title": "WoodRoute isn't just tracking — it's decision-making",
+    "subtitle": "Existing tools record what already happened. WoodRoute helps you with what's coming.",
+    "features": [
+      "Feasibility assistant",
+      "Inventory control",
+      "Client tracking",
+      "Time estimation",
+      "Order management",
+      "Stock alerts"
+    ],
+    "note": "Comparison based on publicly available information for each tool."
+  },
+  "pricing": {
+    "tag": "Pricing",
+    "title": "Start free, scale when you're ready",
+    "subtitle": "No credit card required to get started.",
+    "monthly": "Monthly",
+    "annual": "Annual",
+    "save_badge": "Save 20%",
+    "currency": "$",
+    "per_month": "/month",
+    "plans": [
+      {
+        "id": "free",
+        "name": "Free",
+        "price_monthly": "0",
+        "price_annual": "0",
+        "description": "For workshops just getting started.",
+        "cta": "Get started free",
+        "popular": false,
+        "features": [
+          "Up to 10 active orders",
+          "Basic inventory control",
+          "Client tracking"
+        ]
+      },
+      {
+        "id": "pro",
+        "name": "Pro",
+        "price_monthly": "19",
+        "price_annual": "15",
+        "description": "For workshops ready to scale.",
+        "cta": "Start with Pro",
+        "popular": true,
+        "popular_label": "Most popular",
+        "features": [
+          "Unlimited orders",
+          "Full feasibility assistant",
+          "Automatic time estimation",
+          "Configurable stock alerts",
+          "Production reports"
+        ]
+      },
+      {
+        "id": "shop",
+        "name": "Shop",
+        "price_monthly": "39",
+        "price_annual": "31",
+        "description": "For workshops with a team.",
+        "cta": "Start with Shop",
+        "popular": false,
+        "features": [
+          "Everything in Pro",
+          "Up to 5 users",
+          "Team dashboard",
+          "Priority support"
+        ]
+      }
+    ]
+  },
+  "cta_banner": {
+    "title": "Get your workshop organized today",
+    "subtitle": "Join the woodworkers who are already making better decisions.",
+    "cta_primary": "Get started free",
+    "cta_secondary": "Watch demo"
+  },
+  "footer": {
+    "logo_alt": "WoodRoute logo",
+    "tagline": "Production management for independent woodworkers.",
+    "nav": {
+      "product": "Product",
+      "features": "Features",
+      "pricing": "Pricing",
+      "how_it_works": "How it works",
+      "company": "Company",
+      "about": "About us",
+      "blog": "Blog",
+      "contact": "Contact",
+      "legal": "Legal",
+      "privacy": "Privacy",
+      "terms": "Terms of service"
+    },
+    "social": {
+      "twitter": "WoodRoute on Twitter",
+      "instagram": "WoodRoute on Instagram",
+      "linkedin": "WoodRoute on LinkedIn"
+    },
+    "copyright": "© 2025 WoodRoute. All rights reserved."
+  }
+}

@@ -192,6 +192,32 @@
       }
     ]
   },
+  "faq": {
+    "tag": "FAQ",
+    "title": "Frequently asked questions",
+    "items": [
+      {
+        "question": "Is it free to get started?",
+        "answer": "Yes. The Free plan requires no credit card. You can manage up to 10 active orders, track basic inventory, and share client tracking links without paying anything."
+      },
+      {
+        "question": "Can I change my plan at any time?",
+        "answer": "Yes. You can upgrade or downgrade whenever you want. If you upgrade, the charge is prorated from the day of the change. If you downgrade, the change applies at the start of the next billing period."
+      },
+      {
+        "question": "Do I need technical knowledge to use WoodRoute?",
+        "answer": "No. WoodRoute is designed for woodworkers, not developers. Order registration, inventory control, and client tracking work from day one — no complex setup required."
+      },
+      {
+        "question": "How does the client tracking link work?",
+        "answer": "When you register an order, WoodRoute generates a unique link you can send to your client via WhatsApp, email, or any channel you prefer. Your client can see the order status in real time from any device, without creating an account."
+      },
+      {
+        "question": "Does it work on mobile?",
+        "answer": "Yes. WoodRoute is optimized to work from the browser on your phone, tablet, or computer. No extra app installation needed."
+      }
+    ]
+  },
   "cta_banner": {
     "title": "Get your workshop organized today",
     "subtitle": "Join the woodworkers who are already making better decisions.",

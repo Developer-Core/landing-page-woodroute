@@ -25,7 +25,55 @@
   </head>
   <body>
 
-    <header id="nav-bar"></header>
+    <header id="nav-bar" role="banner" class="sticky top-0 z-50 bg-card border-b border-border">
+
+      <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:bg-primary focus:text-primary-foreground focus:px-4 focus:py-2 focus:rounded-md focus:text-sm focus:font-semibold" data-i18n="a11y.skip_to_content"></a>
+
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
+
+        <a href="/" aria-label="WoodRoute — Ir al inicio" class="flex-shrink-0">
+          <img src="/assets/images/logo-woodroute.png" alt="" data-i18n-alt="nav.logo_alt" class="h-8 w-auto" />
+        </a>
+
+        <nav role="navigation" aria-label="Navegación principal" class="hidden md:flex items-center gap-8">
+          <a href="#features"     class="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors" data-i18n="nav.items.features"></a>
+          <a href="#how-it-works" class="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors" data-i18n="nav.items.how_it_works"></a>
+          <a href="#pricing"      class="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors" data-i18n="nav.items.pricing"></a>
+        </nav>
+
+        <div class="flex items-center gap-3">
+
+          <button id="lang-toggle" class="hidden sm:flex items-center gap-1.5 text-xs font-medium text-muted-foreground hover:text-foreground px-2 py-1.5 rounded-md hover:bg-accent transition-colors" data-i18n-label="lang_switcher.label">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            <span id="lang-current" class="uppercase tracking-wide">es</span>
+          </button>
+
+          <a href="#pricing" class="hidden sm:inline-flex items-center justify-center bg-primary text-primary-foreground text-sm font-semibold px-5 py-2 rounded-full hover:bg-primary-hover transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2" data-i18n="nav.cta"></a>
+
+          <button id="menu-toggle" class="md:hidden flex items-center justify-center w-9 h-9 rounded-md hover:bg-accent transition-colors" aria-expanded="false" aria-controls="mobile-menu" data-i18n-label="nav.open_menu">
+            <svg id="icon-menu" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="18" x2="20" y2="18"/></svg>
+            <svg id="icon-close" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false" class="hidden"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+          </button>
+
+        </div>
+      </div>
+
+      <div id="mobile-menu" hidden class="md:hidden border-t border-border bg-card">
+        <nav role="navigation" aria-label="Navegación móvil" class="max-w-screen-xl mx-auto px-4 py-4 flex flex-col gap-1">
+          <a href="#features"     class="text-sm font-medium text-muted-foreground hover:text-foreground px-3 py-2 rounded-md hover:bg-accent transition-colors" data-i18n="nav.items.features"></a>
+          <a href="#how-it-works" class="text-sm font-medium text-muted-foreground hover:text-foreground px-3 py-2 rounded-md hover:bg-accent transition-colors" data-i18n="nav.items.how_it_works"></a>
+          <a href="#pricing"      class="text-sm font-medium text-muted-foreground hover:text-foreground px-3 py-2 rounded-md hover:bg-accent transition-colors" data-i18n="nav.items.pricing"></a>
+          <div class="flex items-center gap-3 px-3 pt-3 mt-2 border-t border-border">
+            <button id="lang-toggle-mobile" class="flex items-center gap-1.5 text-xs font-medium text-muted-foreground hover:text-foreground px-2 py-1.5 rounded-md hover:bg-accent transition-colors" data-i18n-label="lang_switcher.label">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+              <span id="lang-current-mobile" class="uppercase tracking-wide">es</span>
+            </button>
+            <a href="#pricing" class="inline-flex items-center justify-center bg-primary text-primary-foreground text-sm font-semibold px-4 py-2 rounded-full hover:bg-primary-hover transition-colors" data-i18n="nav.cta"></a>
+          </div>
+        </nav>
+      </div>
+
+    </header>
 
     <main id="main-content">
       <section id="hero"></section>

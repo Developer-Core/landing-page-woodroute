@@ -2,35 +2,36 @@
 
 @theme {
   /* ── Colores ────────────────────────────────────────── */
+  /* Palette: Soft Sand #E6D9CC · Espresso #443218 · Walnut #63523A · Vivid Ember #FD4319 · Primary Black #1A1715 */
 
-  --color-background:       oklch(98.5% 0.008 70);
-  --color-foreground:       oklch(14%   0.015 50);
+  --color-background:       #FAF7F2;
+  --color-foreground:       #1A1715;
 
-  --color-card:             oklch(100%  0     0);
-  --color-card-foreground:  oklch(14%   0.015 50);
+  --color-card:             #FFFFFF;
+  --color-card-foreground:  #1A1715;
 
-  --color-primary:          oklch(55%   0.20  43);
-  --color-primary-hover:    oklch(48%   0.18  42);
-  --color-primary-foreground: oklch(98% 0.01  70);
+  --color-primary:          #FD4319;
+  --color-primary-hover:    #E23415;
+  --color-primary-foreground: #FFFFFF;
 
-  --color-brand-light:      oklch(94%   0.06  70);
-  --color-brand-subtle:     oklch(97%   0.03  70);
+  --color-brand-light:      #F0E4D8;
+  --color-brand-subtle:     #F8F2EC;
 
-  --color-secondary:        oklch(96%   0.012 65);
-  --color-secondary-foreground: oklch(25% 0.015 50);
+  --color-secondary:        #F0E8DF;
+  --color-secondary-foreground: #443218;
 
-  --color-muted:            oklch(95%   0.01  65);
-  --color-muted-foreground: oklch(50%   0.015 55);
+  --color-muted:            #EAE2D6;
+  --color-muted-foreground: #63523A;
 
-  --color-accent:           oklch(92%   0.04  60);
-  --color-accent-foreground: oklch(25%  0.015 50);
+  --color-accent:           #E6DDD1;
+  --color-accent-foreground: #443218;
 
-  --color-destructive:      oklch(53%   0.22  27);
-  --color-destructive-foreground: oklch(98% 0.01 0);
+  --color-destructive:      #C0392B;
+  --color-destructive-foreground: #FFFFFF;
 
-  --color-border:           oklch(88%   0.012 65);
-  --color-ring:             oklch(64%   0.10  58);
-  --color-ring-offset:      oklch(100%  0     0);
+  --color-border:           #D6C5B3;
+  --color-ring:             #FD4319;
+  --color-ring-offset:      #FFFFFF;
 
   /* ── Tipografía ─────────────────────────────────────── */
 
@@ -69,10 +70,10 @@
 
   /* ── Sombras ────────────────────────────────────────── */
 
-  --shadow-sm:  0 1px 2px 0 oklch(14% 0.015 50 / 0.06);
-  --shadow-md:  0 4px 12px 0 oklch(14% 0.015 50 / 0.08);
-  --shadow-lg:  0 8px 24px 0 oklch(14% 0.015 50 / 0.10);
-  --shadow-xl:  0 16px 40px 0 oklch(14% 0.015 50 / 0.12);
+  --shadow-sm:  0 1px 2px 0 rgb(26 23 21 / 0.06);
+  --shadow-md:  0 4px 12px 0 rgb(26 23 21 / 0.08);
+  --shadow-lg:  0 8px 24px 0 rgb(26 23 21 / 0.10);
+  --shadow-xl:  0 16px 40px 0 rgb(26 23 21 / 0.12);
 
   /* ── Animaciones ────────────────────────────────────── */
 
@@ -165,6 +166,7 @@
 
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Plus Jakarta Sans', var(--font-display), sans-serif;
+    font-optical-sizing: auto;
     line-height: var(--line-height-tight);
     font-weight: var(--font-weight-bold);
     color: var(--color-foreground);

@@ -242,7 +242,49 @@
           </ul>
         </div>
       </section>
-      <section id="client-tracking"></section>
+      <section id="client-tracking" aria-labelledby="client-tracking-title" class="py-20 sm:py-28 bg-background">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+
+            <div>
+              <span class="inline-flex items-center gap-2 bg-brand-light text-primary text-xs font-semibold px-3 py-1 rounded-full mb-6" data-i18n="client_tracking.tag"></span>
+              <h2 id="client-tracking-title" class="font-display text-3xl sm:text-4xl font-bold text-foreground mb-4" data-i18n="client_tracking.title"></h2>
+              <p class="text-muted-foreground text-lg leading-relaxed mb-8" data-i18n="client_tracking.subtitle"></p>
+
+              <ul class="flex flex-col gap-3" role="list">
+                <li class="flex items-center gap-3">
+                  <span class="w-5 h-5 rounded-full bg-primary flex items-center justify-center shrink-0" aria-hidden="true">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="text-primary-foreground"><polyline points="20 6 9 17 4 12"/></svg>
+                  </span>
+                  <span class="text-sm font-medium text-foreground" data-i18n="client_tracking.benefits.0"></span>
+                </li>
+                <li class="flex items-center gap-3">
+                  <span class="w-5 h-5 rounded-full bg-primary flex items-center justify-center shrink-0" aria-hidden="true">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="text-primary-foreground"><polyline points="20 6 9 17 4 12"/></svg>
+                  </span>
+                  <span class="text-sm font-medium text-foreground" data-i18n="client_tracking.benefits.1"></span>
+                </li>
+                <li class="flex items-center gap-3">
+                  <span class="w-5 h-5 rounded-full bg-primary flex items-center justify-center shrink-0" aria-hidden="true">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="text-primary-foreground"><polyline points="20 6 9 17 4 12"/></svg>
+                  </span>
+                  <span class="text-sm font-medium text-foreground" data-i18n="client_tracking.benefits.2"></span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="rounded-xl border border-border bg-secondary shadow-lg overflow-hidden aspect-video flex items-center justify-center">
+              <img
+                src="/assets/images/logo-woodroute.png"
+                alt=""
+                data-i18n-alt="client_tracking.tracking_alt"
+                class="w-24 h-24 object-contain opacity-20"
+              />
+            </div>
+
+          </div>
+        </div>
+      </section>
       <section id="comparison"></section>
       <section id="pricing"></section>
       <section id="cta-banner"></section>

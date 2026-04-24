@@ -218,6 +218,10 @@
       }
     ]
   },
+  "team": {
+    "tag": "Our team",
+    "title": "The people behind WoodRoute"
+  },
   "cta_banner": {
     "title": "Get your workshop organized today",
     "subtitle": "Join the woodworkers who are already making better decisions.",

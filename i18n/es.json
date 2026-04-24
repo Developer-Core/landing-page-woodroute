@@ -218,6 +218,10 @@
       }
     ]
   },
+  "team": {
+    "tag": "Nuestro equipo",
+    "title": "Las personas detrás de WoodRoute"
+  },
   "cta_banner": {
     "title": "Organiza tu taller hoy",
     "subtitle": "Únete a los carpinteros que ya toman mejores decisiones.",

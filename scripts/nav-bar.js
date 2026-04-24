@@ -4,6 +4,7 @@ export function initNavBar() {
   setupMobileMenu()
   setupLangSwitcher()
   syncLangDisplay()
+  setupScrollBorder()
 }
 
 function setupMobileMenu() {
@@ -44,6 +45,19 @@ function setupLangSwitcher() {
 
   document.getElementById('lang-toggle')?.addEventListener('click', handleSwitch)
   document.getElementById('lang-toggle-mobile')?.addEventListener('click', handleSwitch)
+}
+
+function setupScrollBorder() {
+  const header = document.getElementById('nav-bar')
+  if (!header) return
+
+  const update = () => {
+    const scrolled = window.scrollY > 0
+    header.classList.toggle('border-transparent', !scrolled)
+    header.classList.toggle('border-border', scrolled)
+  }
+
+  window.addEventListener('scroll', update, { passive: true })
 }
 
 function syncLangDisplay() {

@@ -131,6 +131,14 @@
   [data-stagger].is-visible > *:nth-child(4) { opacity: 1; transform: none; transition-delay: 240ms; }
   [data-stagger].is-visible > *:nth-child(5) { opacity: 1; transform: none; transition-delay: 320ms; }
   [data-stagger].is-visible > *:nth-child(6) { opacity: 1; transform: none; transition-delay: 400ms; }
+
+  details summary svg {
+    transition: transform 0.2s ease;
+  }
+
+  details[open] summary svg {
+    transform: rotate(45deg);
+  }
 }
 
 /* ── Base ───────────────────────────────────────────────── */

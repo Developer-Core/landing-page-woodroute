@@ -192,6 +192,32 @@
       }
     ]
   },
+  "faq": {
+    "tag": "FAQ",
+    "title": "Preguntas frecuentes",
+    "items": [
+      {
+        "question": "¿Es gratis empezar?",
+        "answer": "Sí. El plan Gratis no requiere tarjeta de crédito. Puedes gestionar hasta 10 pedidos activos, controlar tu inventario básico y compartir enlaces de seguimiento con tus clientes sin pagar nada."
+      },
+      {
+        "question": "¿Puedo cambiar de plan en cualquier momento?",
+        "answer": "Sí. Puedes subir o bajar de plan cuando quieras. Si cambias a un plan superior, el cobro se prorratea desde el día del cambio. Si bajas de plan, el cambio se aplica al inicio del siguiente período."
+      },
+      {
+        "question": "¿Necesito conocimientos técnicos para usar WoodRoute?",
+        "answer": "No. WoodRoute está diseñado para carpinteros, no para programadores. El registro de pedidos, el control de inventario y el seguimiento para el cliente funcionan desde el primer día, sin configuraciones complejas."
+      },
+      {
+        "question": "¿Cómo funciona el enlace de seguimiento para el cliente?",
+        "answer": "Cuando registras un pedido, WoodRoute genera un enlace único que puedes enviar a tu cliente por WhatsApp, email o el canal que prefieras. Tu cliente puede ver el estado del pedido en tiempo real desde cualquier dispositivo, sin necesidad de crear una cuenta."
+      },
+      {
+        "question": "¿Funciona en el celular?",
+        "answer": "Sí. WoodRoute está optimizado para funcionar desde el navegador de tu celular, tablet o computadora. No necesitas instalar ninguna app adicional."
+      }
+    ]
+  },
   "cta_banner": {
     "title": "Organiza tu taller hoy",
     "subtitle": "Únete a los carpinteros que ya toman mejores decisiones.",

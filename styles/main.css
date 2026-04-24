@@ -158,7 +158,7 @@
     font-family: 'Plus Jakarta Sans', var(--font-display), sans-serif;
     font-optical-sizing: auto;
     line-height: var(--line-height-tight);
-    font-weight: var(--font-weight-normal);
+    font-weight: var(--font-weight-bold);
     color: var(--color-foreground);
   }
 

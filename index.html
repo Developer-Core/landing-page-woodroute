@@ -234,37 +234,101 @@
           </ul>
         </div>
       </section>
-      <section id="how-it-works" aria-labelledby="how-it-works-title" class="py-20 sm:py-28 bg-background">
+      <section id="how-it-works" aria-labelledby="how-it-works-title" class="py-20 sm:py-28 bg-secondary">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-          <div class="max-w-2xl mx-auto text-center mb-16" data-animate>
-            <span class="inline-flex items-center gap-2 bg-brand-light text-primary text-xs font-semibold px-3 py-1 rounded-full mb-4" data-i18n="how_it_works.tag"></span>
+          <div class="max-w-2xl mx-auto text-center mb-20" data-animate>
+            <span class="inline-flex items-center gap-2 bg-background text-primary text-xs font-semibold px-3 py-1 rounded-full mb-4" data-i18n="how_it_works.tag"></span>
             <h2 id="how-it-works-title" class="font-display text-3xl sm:text-4xl font-bold text-foreground" data-i18n="how_it_works.title"></h2>
           </div>
 
-          <ol class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8" aria-label="Pasos del proceso" data-stagger>
-            <li class="flex flex-col items-start">
-              <div class="w-12 h-12 rounded-xl bg-primary text-primary-foreground font-display font-bold text-lg flex items-center justify-center mb-4 shrink-0" aria-hidden="true">01</div>
-              <h3 class="font-display font-semibold text-foreground mb-2" data-i18n="how_it_works.steps.0.title"></h3>
-              <p class="text-sm text-muted-foreground leading-relaxed" data-i18n="how_it_works.steps.0.description"></p>
-            </li>
-            <li class="flex flex-col items-start">
-              <div class="w-12 h-12 rounded-xl bg-primary text-primary-foreground font-display font-bold text-lg flex items-center justify-center mb-4 shrink-0" aria-hidden="true">02</div>
-              <h3 class="font-display font-semibold text-foreground mb-2" data-i18n="how_it_works.steps.1.title"></h3>
-              <p class="text-sm text-muted-foreground leading-relaxed" data-i18n="how_it_works.steps.1.description"></p>
-            </li>
-            <li class="flex flex-col items-start">
-              <div class="w-12 h-12 rounded-xl bg-primary text-primary-foreground font-display font-bold text-lg flex items-center justify-center mb-4 shrink-0" aria-hidden="true">03</div>
-              <h3 class="font-display font-semibold text-foreground mb-2" data-i18n="how_it_works.steps.2.title"></h3>
-              <p class="text-sm text-muted-foreground leading-relaxed" data-i18n="how_it_works.steps.2.description"></p>
-            </li>
-            <li class="flex flex-col items-start">
-              <div class="w-12 h-12 rounded-xl bg-primary text-primary-foreground font-display font-bold text-lg flex items-center justify-center mb-4 shrink-0" aria-hidden="true">04</div>
-              <h3 class="font-display font-semibold text-foreground mb-2" data-i18n="how_it_works.steps.3.title"></h3>
-              <p class="text-sm text-muted-foreground leading-relaxed" data-i18n="how_it_works.steps.3.description"></p>
-            </li>
-          </ol>
+          <ol class="flex flex-col gap-20 sm:gap-24">
 
+            <li class="flex flex-col lg:flex-row gap-10 lg:gap-16 items-center" data-animate>
+              <div class="flex-1 relative">
+                <span class="absolute -top-4 -left-2 font-display text-8xl font-extrabold leading-none select-none pointer-events-none text-foreground/[0.05]" aria-hidden="true">01</span>
+                <div class="relative">
+                  <div class="flex items-center gap-2 mb-4">
+                    <span class="text-xs font-bold tracking-widest text-primary uppercase">01</span>
+                    <span class="text-xs text-muted-foreground">/ 04</span>
+                  </div>
+                  <h3 class="font-display text-2xl sm:text-3xl font-bold text-foreground mb-4" data-i18n="how_it_works.steps.0.title"></h3>
+                  <p class="text-base text-muted-foreground leading-relaxed" data-i18n="how_it_works.steps.0.description"></p>
+                </div>
+              </div>
+              <div class="flex-1 w-full">
+                <div class="rounded-2xl bg-brand-light border border-border aspect-[4/3] flex items-center justify-center" aria-hidden="true">
+                  <div class="w-20 h-20 rounded-2xl bg-primary/15 flex items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="text-primary"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="flex flex-col lg:flex-row-reverse gap-10 lg:gap-16 items-center" data-animate>
+              <div class="flex-1 relative">
+                <span class="absolute -top-4 -left-2 font-display text-8xl font-extrabold leading-none select-none pointer-events-none text-foreground/[0.05]" aria-hidden="true">02</span>
+                <div class="relative">
+                  <div class="flex items-center gap-2 mb-4">
+                    <span class="text-xs font-bold tracking-widest text-primary uppercase">02</span>
+                    <span class="text-xs text-muted-foreground">/ 04</span>
+                  </div>
+                  <h3 class="font-display text-2xl sm:text-3xl font-bold text-foreground mb-4" data-i18n="how_it_works.steps.1.title"></h3>
+                  <p class="text-base text-muted-foreground leading-relaxed" data-i18n="how_it_works.steps.1.description"></p>
+                </div>
+              </div>
+              <div class="flex-1 w-full">
+                <div class="rounded-2xl bg-background border border-border aspect-[4/3] flex items-center justify-center" aria-hidden="true">
+                  <div class="w-20 h-20 rounded-2xl bg-primary/15 flex items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="text-primary"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="flex flex-col lg:flex-row gap-10 lg:gap-16 items-center" data-animate>
+              <div class="flex-1 relative">
+                <span class="absolute -top-4 -left-2 font-display text-8xl font-extrabold leading-none select-none pointer-events-none text-foreground/[0.05]" aria-hidden="true">03</span>
+                <div class="relative">
+                  <div class="flex items-center gap-2 mb-4">
+                    <span class="text-xs font-bold tracking-widest text-primary uppercase">03</span>
+                    <span class="text-xs text-muted-foreground">/ 04</span>
+                  </div>
+                  <h3 class="font-display text-2xl sm:text-3xl font-bold text-foreground mb-4" data-i18n="how_it_works.steps.2.title"></h3>
+                  <p class="text-base text-muted-foreground leading-relaxed" data-i18n="how_it_works.steps.2.description"></p>
+                </div>
+              </div>
+              <div class="flex-1 w-full">
+                <div class="rounded-2xl bg-brand-light border border-border aspect-[4/3] flex items-center justify-center" aria-hidden="true">
+                  <div class="w-20 h-20 rounded-2xl bg-primary/15 flex items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="text-primary"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="flex flex-col lg:flex-row-reverse gap-10 lg:gap-16 items-center" data-animate>
+              <div class="flex-1 relative">
+                <span class="absolute -top-4 -left-2 font-display text-8xl font-extrabold leading-none select-none pointer-events-none text-foreground/[0.05]" aria-hidden="true">04</span>
+                <div class="relative">
+                  <div class="flex items-center gap-2 mb-4">
+                    <span class="text-xs font-bold tracking-widest text-primary uppercase">04</span>
+                    <span class="text-xs text-muted-foreground">/ 04</span>
+                  </div>
+                  <h3 class="font-display text-2xl sm:text-3xl font-bold text-foreground mb-4" data-i18n="how_it_works.steps.3.title"></h3>
+                  <p class="text-base text-muted-foreground leading-relaxed" data-i18n="how_it_works.steps.3.description"></p>
+                </div>
+              </div>
+              <div class="flex-1 w-full">
+                <div class="rounded-2xl bg-background border border-border aspect-[4/3] flex items-center justify-center" aria-hidden="true">
+                  <div class="w-20 h-20 rounded-2xl bg-primary/15 flex items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="text-primary"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+          </ol>
         </div>
       </section>
       <section id="client-tracking" aria-labelledby="client-tracking-title" class="py-20 sm:py-28 bg-background">

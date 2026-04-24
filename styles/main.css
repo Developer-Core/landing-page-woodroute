@@ -9,12 +9,12 @@
   --color-card:             oklch(100%  0     0);
   --color-card-foreground:  oklch(14%   0.015 50);
 
-  --color-primary:          oklch(64%   0.10  58);
-  --color-primary-hover:    oklch(56%   0.09  57);
+  --color-primary:          oklch(55%   0.20  43);
+  --color-primary-hover:    oklch(48%   0.18  42);
   --color-primary-foreground: oklch(98% 0.01  70);
 
-  --color-brand-light:      oklch(95%   0.04  70);
-  --color-brand-subtle:     oklch(97.5% 0.02  70);
+  --color-brand-light:      oklch(94%   0.06  70);
+  --color-brand-subtle:     oklch(97%   0.03  70);
 
   --color-secondary:        oklch(96%   0.012 65);
   --color-secondary-foreground: oklch(25% 0.015 50);
@@ -150,13 +150,13 @@
   body {
     background-color: var(--color-background);
     color: var(--color-foreground);
-    font-family: var(--font-body);
+    font-family: 'Inter', var(--font-body), sans-serif;
     font-size: var(--font-size-base);
     line-height: var(--line-height-normal);
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-display);
+    font-family: 'Plus Jakarta Sans', var(--font-display), sans-serif;
     line-height: var(--line-height-tight);
     font-weight: var(--font-weight-bold);
     color: var(--color-foreground);

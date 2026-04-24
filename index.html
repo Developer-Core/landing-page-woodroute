@@ -29,7 +29,7 @@
 
       <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:bg-primary focus:text-primary-foreground focus:px-4 focus:py-2 focus:rounded-md focus:text-sm focus:font-semibold" data-i18n="a11y.skip_to_content"></a>
 
-      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
 
         <a href="/" aria-label="WoodRoute — Ir al inicio" class="flex-shrink-0">
           <img src="/assets/images/logo-woodroute.png" alt="" data-i18n-alt="nav.logo_alt" class="h-8 w-auto" />
@@ -59,7 +59,7 @@
       </div>
 
       <div id="mobile-menu" hidden class="md:hidden border-t border-border bg-card">
-        <nav role="navigation" aria-label="Navegación móvil" class="max-w-screen-xl mx-auto px-4 py-4 flex flex-col gap-1">
+        <nav role="navigation" aria-label="Navegación móvil" class="max-w-7xl mx-auto px-4 py-4 flex flex-col gap-1">
           <a href="#features"     class="text-sm font-medium text-muted-foreground hover:text-foreground px-3 py-2 rounded-md hover:bg-accent transition-colors" data-i18n="nav.items.features"></a>
           <a href="#how-it-works" class="text-sm font-medium text-muted-foreground hover:text-foreground px-3 py-2 rounded-md hover:bg-accent transition-colors" data-i18n="nav.items.how_it_works"></a>
           <a href="#pricing"      class="text-sm font-medium text-muted-foreground hover:text-foreground px-3 py-2 rounded-md hover:bg-accent transition-colors" data-i18n="nav.items.pricing"></a>
@@ -76,7 +76,36 @@
     </header>
 
     <main id="main-content">
-      <section id="hero"></section>
+      <section id="hero" aria-labelledby="hero-title" class="relative overflow-hidden bg-background pt-24 pb-20 sm:pt-32 sm:pb-28">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="max-w-3xl mx-auto text-center">
+
+            <span class="inline-flex items-center gap-2 bg-brand-light text-primary text-xs font-semibold px-3 py-1 rounded-full mb-6" data-i18n="hero.tag"></span>
+
+            <h1 id="hero-title" class="font-display text-4xl sm:text-5xl lg:text-6xl font-extrabold text-foreground leading-tight tracking-tight mb-6" data-i18n="hero.title"></h1>
+
+            <p class="text-lg sm:text-xl text-muted-foreground leading-relaxed mb-10 max-w-2xl mx-auto" data-i18n="hero.subtitle"></p>
+
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+              <a href="#pricing" class="inline-flex items-center justify-center bg-primary text-primary-foreground text-base font-semibold px-8 py-3.5 rounded-full hover:bg-primary-hover transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 w-full sm:w-auto" data-i18n="hero.cta_primary"></a>
+              <a href="#pricing" class="inline-flex items-center justify-center bg-transparent text-foreground text-base font-semibold px-8 py-3.5 rounded-full border border-border hover:bg-accent transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 w-full sm:w-auto" data-i18n="hero.cta_secondary"></a>
+            </div>
+
+          </div>
+
+          <div class="mt-16 relative max-w-5xl mx-auto">
+            <div class="rounded-xl border border-border bg-card shadow-xl overflow-hidden aspect-video flex items-center justify-center">
+              <img
+                src="/assets/images/logo-woodroute.png"
+                alt=""
+                data-i18n-alt="hero.dashboard_alt"
+                class="w-32 h-32 object-contain opacity-20"
+              />
+            </div>
+          </div>
+
+        </div>
+      </section>
       <section id="problem"></section>
       <section id="how-it-works"></section>
       <section id="features"></section>

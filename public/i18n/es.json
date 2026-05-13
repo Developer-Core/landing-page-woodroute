@@ -20,15 +20,24 @@
       "how_it_works": "Cómo funciona",
       "pricing": "Precios"
     },
-    "cta": "Empieza gratis"
+    "actions": {
+      "login": "Iniciar sesión",
+      "register": "Registrarse"
+    }
   },
   "hero": {
     "tag": "SaaS para carpinteros",
     "title": "Toma mejores decisiones en tu taller. Desde el primer pedido.",
     "subtitle": "Gestiona pedidos, inventario y tiempos en un solo lugar. WoodRoute valida si un pedido es viable antes de que lo aceptes.",
-    "cta_primary": "Empieza gratis",
-    "cta_secondary": "Ver planes",
+    "cta_primary": "Ver planes",
+    "cta_secondary": "Seguir pedido",
     "dashboard_alt": "Vista del panel de control de WoodRoute"
+  },
+  "about_product": {
+    "tag": "About the product",
+    "title": "About the product",
+    "video_title": "Video about the product",
+    "video_unavailable": "Video pendiente de publicación"
   },
   "problem": {
     "tag": "El problema",
@@ -220,13 +229,40 @@
   },
   "team": {
     "tag": "Nuestro equipo",
-    "title": "Las personas detrás de WoodRoute"
+    "title": "Las personas detrás de WoodRoute",
+    "members": [
+      {
+        "name": "Anderson Gonza Morales",
+        "alt": "Foto de Anderson Gonza Morales"
+      },
+      {
+        "name": "Alexander Paolo Justo Yauricasa",
+        "alt": "Foto de Alexander Paolo Justo Yauricasa"
+      },
+      {
+        "name": "Juan David Saldaña De Souza",
+        "alt": "Foto de Juan David Saldaña De Souza"
+      },
+      {
+        "name": "Piero Angel Sulca Sanchez",
+        "alt": "Foto de Piero Angel Sulca Sanchez"
+      },
+      {
+        "name": "Dalila Victoria Torres Sanchez",
+        "alt": "Foto de Dalila Victoria Torres Sanchez"
+      }
+    ]
+  },
+  "about_team": {
+    "title": "About the team",
+    "video_title": "Video about the team",
+    "video_unavailable": "Video pendiente de publicación"
   },
   "cta_banner": {
     "title": "Organiza tu taller hoy",
     "subtitle": "Únete a los carpinteros que ya toman mejores decisiones.",
-    "cta_primary": "Empieza gratis",
-    "cta_secondary": "Ver demo"
+    "cta_primary": "Crear cuenta gratis",
+    "cta_secondary": "Ver planes"
   },
   "footer": {
     "logo_alt": "Logo de WoodRoute",

@@ -20,15 +20,24 @@
       "how_it_works": "How it works",
       "pricing": "Pricing"
     },
-    "cta": "Get started free"
+    "actions": {
+      "login": "Log in",
+      "register": "Sign up"
+    }
   },
   "hero": {
     "tag": "SaaS for woodworkers",
     "title": "Make better decisions in your workshop. From the very first order.",
     "subtitle": "Manage orders, inventory, and timelines in one place. WoodRoute validates whether an order is feasible before you accept it.",
-    "cta_primary": "Get started free",
-    "cta_secondary": "See plans",
+    "cta_primary": "See plans",
+    "cta_secondary": "Track my order",
     "dashboard_alt": "WoodRoute dashboard view"
+  },
+  "about_product": {
+    "tag": "About the product",
+    "title": "About the product",
+    "video_title": "About the product video",
+    "video_unavailable": "Video source pending publication"
   },
   "problem": {
     "tag": "The problem",
@@ -220,13 +229,40 @@
   },
   "team": {
     "tag": "Our team",
-    "title": "The people behind WoodRoute"
+    "title": "The people behind WoodRoute",
+    "members": [
+      {
+        "name": "Anderson Gonza Morales",
+        "alt": "Photo of Anderson Gonza Morales"
+      },
+      {
+        "name": "Alexander Paolo Justo Yauricasa",
+        "alt": "Photo of Alexander Paolo Justo Yauricasa"
+      },
+      {
+        "name": "Juan David Saldaña De Souza",
+        "alt": "Photo of Juan David Saldaña De Souza"
+      },
+      {
+        "name": "Piero Angel Sulca Sanchez",
+        "alt": "Photo of Piero Angel Sulca Sanchez"
+      },
+      {
+        "name": "Dalila Victoria Torres Sanchez",
+        "alt": "Photo of Dalila Victoria Torres Sanchez"
+      }
+    ]
+  },
+  "about_team": {
+    "title": "About the team",
+    "video_title": "About the team video",
+    "video_unavailable": "Video source pending publication"
   },
   "cta_banner": {
     "title": "Get your workshop organized today",
     "subtitle": "Join the woodworkers who are already making better decisions.",
-    "cta_primary": "Get started free",
-    "cta_secondary": "Watch demo"
+    "cta_primary": "Create free account",
+    "cta_secondary": "See plans"
   },
   "footer": {
     "logo_alt": "WoodRoute logo",

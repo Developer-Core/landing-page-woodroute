@@ -1,0 +1,290 @@
+{
+  "meta": {
+    "title": "WoodRoute — Gestión de producción para tu taller",
+    "description": "Gestiona pedidos, inventario y tiempos en un solo lugar. El asistente de viabilidad de WoodRoute te ayuda a decidir antes de aceptar cada pedido."
+  },
+  "a11y": {
+    "skip_to_content": "Ir al contenido principal"
+  },
+  "lang_switcher": {
+    "label": "Selecciona el idioma",
+    "es": "Español",
+    "en": "Inglés"
+  },
+  "nav": {
+    "logo_alt": "Logo de WoodRoute",
+    "open_menu": "Abrir menú de navegación",
+    "close_menu": "Cerrar menú de navegación",
+    "items": {
+      "features": "Funciones",
+      "how_it_works": "Cómo funciona",
+      "pricing": "Precios"
+    },
+    "actions": {
+      "login": "Iniciar sesión",
+      "register": "Registrarse"
+    }
+  },
+  "hero": {
+    "tag": "SaaS para carpinteros",
+    "title": "Toma mejores decisiones en tu taller. Desde el primer pedido.",
+    "subtitle": "Gestiona pedidos, inventario y tiempos en un solo lugar. WoodRoute valida si un pedido es viable antes de que lo aceptes.",
+    "cta_primary": "Ver planes",
+    "cta_secondary": "Seguir pedido",
+    "dashboard_alt": "Vista del panel de control de WoodRoute"
+  },
+  "about_product": {
+    "tag": "About the product",
+    "title": "About the product",
+    "video_title": "Video about the product",
+    "video_unavailable": "Video pendiente de publicación"
+  },
+  "problem": {
+    "tag": "El problema",
+    "title": "El caos del taller tiene un costo real",
+    "subtitle": "Cada carpintero conoce la historia: materiales mal calculados, clientes que llaman a preguntar, plazos que se incumplen.",
+    "items": [
+      {
+        "title": "Cuadernos y WhatsApp",
+        "description": "Llevas los pedidos anotados en papel o en mensajes perdidos. Encontrar la información te cuesta minutos cada vez."
+      },
+      {
+        "title": "Materiales mal calculados",
+        "description": "Aceptas un pedido y a mitad del trabajo descubres que no tienes suficiente material. El pedido se atrasa, el cliente se frustra."
+      },
+      {
+        "title": "Clientes sin información",
+        "description": "Recibes el mismo mensaje una y otra vez: '¿Cuándo está listo?' Cada respuesta interrumpe tu trabajo."
+      },
+      {
+        "title": "Sin visibilidad de tu taller",
+        "description": "No sabes con claridad qué pedidos están en curso, qué tienes en stock ni cuánta capacidad tienes disponible."
+      }
+    ]
+  },
+  "how_it_works": {
+    "tag": "Cómo funciona",
+    "title": "De la solicitud a la entrega, sin sorpresas",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Registra el pedido",
+        "description": "Ingresa los detalles del mueble: materiales, dimensiones y fecha estimada."
+      },
+      {
+        "number": "02",
+        "title": "Valida la viabilidad",
+        "description": "WoodRoute verifica tu stock, capacidad disponible y tiempos. Te dice si puedes aceptar el pedido."
+      },
+      {
+        "number": "03",
+        "title": "Produce con control",
+        "description": "Gestiona el avance, descuenta materiales del inventario y recibe alertas cuando el stock está bajo."
+      },
+      {
+        "number": "04",
+        "title": "El cliente ve el avance",
+        "description": "Comparte un enlace de seguimiento. Tu cliente sigue el estado en tiempo real sin necesidad de llamarte."
+      }
+    ]
+  },
+  "features": {
+    "tag": "Funciones",
+    "title": "Todo lo que tu taller necesita",
+    "items": [
+      {
+        "title": "Asistente de viabilidad",
+        "description": "Antes de aceptar un pedido, valida si tienes el material, el tiempo y la capacidad necesaria."
+      },
+      {
+        "title": "Gestión de pedidos",
+        "description": "Todos tus pedidos en un solo lugar. Estado, materiales, plazos y datos del cliente, siempre a la vista."
+      },
+      {
+        "title": "Control de inventario",
+        "description": "Registra tus materiales y recibe alertas cuando el stock llega al mínimo definido."
+      },
+      {
+        "title": "Estimación de tiempos",
+        "description": "Calcula automáticamente la duración del pedido según la complejidad y tu carga actual."
+      },
+      {
+        "title": "Seguimiento para el cliente",
+        "description": "Un enlace público donde el cliente ve el estado de su mueble. Sin llamadas innecesarias."
+      },
+      {
+        "title": "Alertas de stock",
+        "description": "Recibe notificaciones antes de quedarte sin materiales clave, no después de que pase."
+      }
+    ]
+  },
+  "client_tracking": {
+    "tag": "Para tus clientes",
+    "title": "Tu cliente sabe exactamente dónde está su mueble",
+    "subtitle": "Comparte un enlace de seguimiento y listo. Sin apps adicionales, sin registro. Tu cliente ve el estado en tiempo real.",
+    "benefits": [
+      "Sin llamadas de '¿cuándo está listo?'",
+      "Confianza y transparencia con el cliente",
+      "Disponible en cualquier dispositivo"
+    ],
+    "tracking_alt": "Vista del enlace de seguimiento para el cliente"
+  },
+  "comparison": {
+    "tag": "Comparativa",
+    "title": "WoodRoute no es solo registro — es decisión",
+    "subtitle": "Las herramientas existentes registran lo que ya pasó. WoodRoute te ayuda con lo que está por venir.",
+    "features": [
+      "Asistente de viabilidad",
+      "Control de inventario",
+      "Seguimiento para el cliente",
+      "Estimación de tiempos",
+      "Gestión de pedidos",
+      "Alertas de stock"
+    ],
+    "note": "Comparativa basada en información pública de cada herramienta."
+  },
+  "pricing": {
+    "tag": "Precios",
+    "title": "Empieza gratis, crece cuando lo necesites",
+    "subtitle": "Sin tarjeta de crédito para empezar.",
+    "monthly": "Mensual",
+    "annual": "Anual",
+    "save_badge": "Ahorra 20%",
+    "currency": "$",
+    "per_month": "/mes",
+    "plans": [
+      {
+        "id": "free",
+        "name": "Gratis",
+        "price_monthly": "0",
+        "price_annual": "0",
+        "description": "Para talleres que están empezando.",
+        "cta": "Empieza gratis",
+        "popular": false,
+        "features": [
+          "Hasta 10 pedidos activos",
+          "Control de inventario básico",
+          "Seguimiento para el cliente"
+        ]
+      },
+      {
+        "id": "pro",
+        "name": "Pro",
+        "price_monthly": "19",
+        "price_annual": "15",
+        "description": "Para talleres que quieren escalar.",
+        "cta": "Empezar con Pro",
+        "popular": true,
+        "popular_label": "Más popular",
+        "features": [
+          "Pedidos ilimitados",
+          "Asistente de viabilidad completo",
+          "Estimación de tiempos automática",
+          "Alertas de stock configurables",
+          "Reportes de producción"
+        ]
+      },
+      {
+        "id": "shop",
+        "name": "Taller",
+        "price_monthly": "39",
+        "price_annual": "31",
+        "description": "Para talleres con equipo.",
+        "cta": "Empezar con Taller",
+        "popular": false,
+        "features": [
+          "Todo lo de Pro",
+          "Hasta 5 usuarios",
+          "Panel de equipo",
+          "Soporte prioritario"
+        ]
+      }
+    ]
+  },
+  "faq": {
+    "tag": "FAQ",
+    "title": "Preguntas frecuentes",
+    "items": [
+      {
+        "question": "¿Es gratis empezar?",
+        "answer": "Sí. El plan Gratis no requiere tarjeta de crédito. Puedes gestionar hasta 10 pedidos activos, controlar tu inventario básico y compartir enlaces de seguimiento con tus clientes sin pagar nada."
+      },
+      {
+        "question": "¿Puedo cambiar de plan en cualquier momento?",
+        "answer": "Sí. Puedes subir o bajar de plan cuando quieras. Si cambias a un plan superior, el cobro se prorratea desde el día del cambio. Si bajas de plan, el cambio se aplica al inicio del siguiente período."
+      },
+      {
+        "question": "¿Necesito conocimientos técnicos para usar WoodRoute?",
+        "answer": "No. WoodRoute está diseñado para carpinteros, no para programadores. El registro de pedidos, el control de inventario y el seguimiento para el cliente funcionan desde el primer día, sin configuraciones complejas."
+      },
+      {
+        "question": "¿Cómo funciona el enlace de seguimiento para el cliente?",
+        "answer": "Cuando registras un pedido, WoodRoute genera un enlace único que puedes enviar a tu cliente por WhatsApp, email o el canal que prefieras. Tu cliente puede ver el estado del pedido en tiempo real desde cualquier dispositivo, sin necesidad de crear una cuenta."
+      },
+      {
+        "question": "¿Funciona en el celular?",
+        "answer": "Sí. WoodRoute está optimizado para funcionar desde el navegador de tu celular, tablet o computadora. No necesitas instalar ninguna app adicional."
+      }
+    ]
+  },
+  "team": {
+    "tag": "Nuestro equipo",
+    "title": "Las personas detrás de WoodRoute",
+    "members": [
+      {
+        "name": "Anderson Gonza Morales",
+        "alt": "Foto de Anderson Gonza Morales"
+      },
+      {
+        "name": "Alexander Paolo Justo Yauricasa",
+        "alt": "Foto de Alexander Paolo Justo Yauricasa"
+      },
+      {
+        "name": "Juan David Saldaña De Souza",
+        "alt": "Foto de Juan David Saldaña De Souza"
+      },
+      {
+        "name": "Piero Angel Sulca Sanchez",
+        "alt": "Foto de Piero Angel Sulca Sanchez"
+      },
+      {
+        "name": "Dalila Victoria Torres Sanchez",
+        "alt": "Foto de Dalila Victoria Torres Sanchez"
+      }
+    ]
+  },
+  "about_team": {
+    "title": "About the team",
+    "video_title": "Video about the team",
+    "video_unavailable": "Video pendiente de publicación"
+  },
+  "cta_banner": {
+    "title": "Organiza tu taller hoy",
+    "subtitle": "Únete a los carpinteros que ya toman mejores decisiones.",
+    "cta_primary": "Crear cuenta gratis",
+    "cta_secondary": "Ver planes"
+  },
+  "footer": {
+    "logo_alt": "Logo de WoodRoute",
+    "tagline": "Gestión de producción para carpinteros independientes.",
+    "nav": {
+      "product": "Producto",
+      "features": "Funciones",
+      "pricing": "Precios",
+      "how_it_works": "Cómo funciona",
+      "company": "Empresa",
+      "about": "Sobre nosotros",
+      "blog": "Blog",
+      "contact": "Contacto",
+      "legal": "Legal",
+      "privacy": "Privacidad",
+      "terms": "Términos de uso"
+    },
+    "social": {
+      "twitter": "Perfil de WoodRoute en Twitter",
+      "instagram": "Perfil de WoodRoute en Instagram",
+      "linkedin": "Perfil de WoodRoute en LinkedIn"
+    },
+    "copyright": "© 2025 WoodRoute. Todos los derechos reservados."
+  }
+}

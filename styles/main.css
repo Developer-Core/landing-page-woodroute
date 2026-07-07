@@ -172,3 +172,31 @@
     max-width: 100%;
   }
 }
+
+/* Los números de "Cómo funciona" (01–04) se pintan de naranja de abajo
+   hacia arriba conforme entran en el viewport. El relleno lo controla la
+   variable --step-fill, que steps-progress.js actualiza siguiendo el scroll. */
+@property --step-fill {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 0%;
+}
+
+.step-number {
+  --step-fill: 0%;
+  background-image: linear-gradient(
+    to top,
+    var(--color-primary) var(--step-fill),
+    color-mix(in srgb, var(--color-foreground) 16%, transparent) var(--step-fill)
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  transition: --step-fill 140ms linear;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .step-number {
+    transition: none;
+  }
+}

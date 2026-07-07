@@ -286,5 +286,13 @@
       "linkedin": "Perfil de WoodRoute en LinkedIn"
     },
     "copyright": "© 2025 WoodRoute. Todos los derechos reservados."
+  },
+  "screenshots": {
+    "hero_alt": "Panel de WoodRoute mostrando la gestión de pedidos del taller",
+    "step_0_alt": "Formulario para registrar un nuevo pedido de mueble a medida",
+    "step_1_alt": "Vista de inventario con el stock de materiales del taller",
+    "step_2_alt": "Planificación de producción con el avance de las etapas del pedido",
+    "step_3_alt": "Seguimiento público donde el cliente ve el avance de su pedido",
+    "client_tracking_alt": "Página de seguimiento en tiempo real vista por el cliente"
   }
 }

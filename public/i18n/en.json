@@ -286,5 +286,13 @@
       "linkedin": "WoodRoute on LinkedIn"
     },
     "copyright": "© 2025 WoodRoute. All rights reserved."
+  },
+  "screenshots": {
+    "hero_alt": "WoodRoute dashboard showing the workshop's order management",
+    "step_0_alt": "Form to register a new custom furniture order",
+    "step_1_alt": "Inventory view with the workshop's material stock",
+    "step_2_alt": "Production planning with the order's stage progress",
+    "step_3_alt": "Public tracking where the client sees their order progress",
+    "client_tracking_alt": "Real-time tracking page as seen by the client"
   }
 }
